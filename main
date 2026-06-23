@@ -1,0 +1,38 @@
+my-website/
+│
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    └── logo.png
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Search Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Search</h1>
+    <input type="text" placeholder="Search here...">
+    <button onclick="search()">Search</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 100px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+function search() {
+    alert("Search button clicked!");
+}
